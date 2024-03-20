@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Mochiy+Pop+P+One&family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+    font-size: 17px;
+    font-weight: 5px;
+    color: white;
+}
+
+body{
+    background-image: url(bg.jpg);
+    backdrop-filter: brightness(50%);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    width: 550px;
+    border: 1px solid white;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+    transform: translateY(30px);
+}
+
+.title{
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-family: "Dangrek", sans-serif;
+}
+
+.input-box{
+    margin-bottom: 30px;
+}
+
+.input-box > .bday{
+    color: black;
+}
+
+.input-box > .names{
+    color: black;
+}
+
+textarea > .names{
+    color: black;
+}
+
+input{
+    padding: 5px;
+    border-radius: 5px ;
+}
+
+textarea{
+    height: 100px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.huey > input{
+    all: unset;
+}
+
+.huey > .btn{
+    background-color: rgb(246, 111, 111);
+    cursor: pointer;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+
+.huey{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input-box > span{
+    font-family: "Mochiy Pop P One", sans-serif;
+}
+
+.input-box > label{
+    font-family: "Mochiy Pop P One", sans-serif;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">Registration</div>
+        <form action="#">
+            <div class="user-details" id="lahat">
+                <div class="input-box">
+                    <input class="names" id="fname" type="text" placeholder="Enter your First name" required>
+                </div>
+                <div class="input-box">
+                    <input class="names" id="lname" type="text" placeholder="Enter your Last name" required>
+                </div>
+                <div id="gender" class="input-box">
+                    <span class="details">Gender:</span>
+                    <input name="gender" type="radio" id="male" value="MALE">
+                    <label for="male">MALE</label>
+                    <input name="gender" type="radio" id="female" value="FEMALE">
+                    <label for="female">FEMALE</label>
+                </div>
+                <div class="input-box">
+                    <span class="details">How do you Commute:</span>
+                    <input name="transpo" type="radio" id="walk" value="WALK">
+                    <label for="walk">WALK</label>
+                    <input name="transpo" type="radio" id="bike" value="BIKE">
+                    <label for="bike">BIKE</label>
+                    <input name="transpo" type="radio" id="car" value="CAR">
+                    <label for="car">CAR</label>
+                    <input name="transpo" type="radio" id="jeep" value="JEEP">
+                    <label for="jeep">JEEP</label>
+                </div>
+                <div class="input-box">
+                    <span class="details">Your Birthday:</span>
+                    <input type="date" id="birthday" name="birthday" class="bday">
+                </div>
+                <div class="input-box">
+                    <span class="details">Say about yourself:</span>
+                    <br>
+                    <br>
+                    <textarea id="anoka" class="names" style="resize: none;"></textarea>
+                </div>
+                <div class="huey">
+                    <input id="sub-btn" type="button" value="Submit" class="btn">
+                    <input id="res-btn" type="button" value="Clear" class="btn">
+                </div>
+            </div>
+        </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
